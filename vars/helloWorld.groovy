@@ -1,5 +1,5 @@
-def call(){
-	sh "echo Hello from Jenkins shared library"
+def call(String name, String city){
+	sh "echo Hello, I'm {$name} from ${city}"
 }
 
 
