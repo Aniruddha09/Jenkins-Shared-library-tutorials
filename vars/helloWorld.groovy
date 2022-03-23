@@ -1,5 +1,3 @@
 def call(String name, String city){
-	sh "echo Hello, I'm ${name} from ${city}"
+	sh "echo Hello, My name is ${name} from ${city}"
 }
-
-
